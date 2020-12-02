@@ -1,0 +1,278 @@
+.js-plotly-plot .plotly .modebar {
+  padding-top: 5%;
+  margin-right: 3.5%;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 1%;
+}
+
+h1, h2, h5{
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 21px;
+  padding-left: 12px;
+  line-height: 1.0;
+}
+h6 {
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 21px;
+  padding-left: 12px;
+  line-height: 1.0;
+}
+h3 {
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 12px;
+  line-height: 1.0;
+}
+h4 {
+  font-family: "Helvetica";
+  font-size: 18px;
+  padding-left: 10px;
+  line-height: 0;
+}
+p {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 12px;
+}
+a {
+  text-decoration: none;
+}
+.bg-grey{
+  background-color: #31302F;
+}
+.text-padding{
+  padding: 5px;
+}
+
+.two.columns {
+  width: 16.25%;
+}
+
+.logo {
+  height: 35px;
+  padding-top: 5px;
+  margin-left: 8px;
+}
+
+.column,
+.columns {
+  margin-left: 0%;
+}
+
+.three.columns {
+  width: 25%;
+}
+.threehalf.columns {
+  width: 29.16666666667%;
+}
+.four.columns {
+  width: 33.3333333333%;
+}
+.five.columns {
+  width: 41.6666666667%;
+}
+.six.columns {
+  width: 50%;
+}
+.seven.columns {
+  width: 56.6666666667%;
+}
+.eight.columns {
+  width: 66.6666666667%;
+}
+.eighthalf.columns {
+  width: 70.8333333333%;
+}
+.nine.columns {
+  width: 75%;
+}
+.ten.columns {
+  width: 82.6666666667%;
+}
+.eleven.columns {
+  width: 91.3333333333%;
+}
+.twelve.columns {
+  width: 100%;
+  margin-left: 0;
+}
+
+.first_row {
+  height: 60vh;
+}
+
+.pretty_container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 5px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.bare_container {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.dcc_control {
+  margin: 0;
+  padding: 5px;
+  width: calc(100%-40px);
+}
+
+.control_label {
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: calc(100%-40px);
+}
+
+.rc-slider {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.container-display {
+  display: flex;
+}
+
+#individual_graph,
+#aggregate_graph {
+  width: calc(100% - 30px);
+  position: absolute;
+}
+
+#map {
+  position: absolute;
+  height: calc(100% - 45px);
+  width: calc(100% - 20px);
+}
+
+#mapContainer {
+  height: 45vh;
+  position: relative;
+}
+
+#box {
+  position: absolute;
+  height: calc(100% - 45px);
+  width: calc(100% - 20px);
+}
+
+#boxContainer {
+  height: 45vh;
+  position: relative;
+}
+
+#line {
+  position: absolute;
+  height: calc(100% - 45px);
+  width: calc(100% - 20px);
+}
+
+#lineContainer {
+  height: 35vh;
+  position: relative;
+}
+
+#pie {
+  position: absolute;
+  height: calc(100% - 45px);
+  width: calc(100% - 20px);
+}
+
+#pieContainer {
+  height: 35vh;
+  position: relative;
+}
+
+#bar {
+  position: absolute;
+  height: calc(100% - 45px);
+  width: calc(100% - 20px);
+}
+
+#barContainer {
+  height: 35vh;
+  position: relative;
+}
+
+#header {
+  align-items: center;
+}
+
+#learn-more-button {
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  text-transform: none;
+  font-size: 15px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+#title {
+  text-align: center;
+}
+
+.mini_container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+#right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#wells {
+  flex: 1;
+}
+
+#gas {
+  flex: 1;
+}
+
+#aggregate_data {
+  align-items: center;
+}
+
+#oil {
+  flex: 1;
+}
+
+#water {
+  flex: 1;
+}
+
+#tripleContainer {
+  display: flex;
+  flex: 3;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#pie_graph > div > div > svg:nth-child(3) > g.infolayer > g.legend {
+  pointer-events: all;
+  transform: translate(30px, 349px);
+}
